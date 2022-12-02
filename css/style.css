@@ -1,0 +1,21 @@
+.wrapper-bg-blue {
+    background: #53A2A4;
+    color: white;
+    padding: 10px 0 70px 0;
+}
+.wrapper-bg-none {
+    padding: 70px 0 70px 0;
+}
+.wrapper-bg-ash {
+    background: #ECF3F8;
+    padding: 70px 0 70px 0;
+}
+.wrapper-bg-blue2 {
+    background: #53A2A4;
+    color: white;
+    padding: 30px 0 30px 0;
+}
+.custom-link {
+    text-decoration: none;
+    color: #000;
+}

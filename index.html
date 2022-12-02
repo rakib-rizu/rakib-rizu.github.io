@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sample Web Dev Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <div class="wrapper-bg-blue">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 animate__animated animate__fadeInLeft">
+                    <h5 class="mb-5">
+                        <img src="img/penguin.png" width="15px" height="15px" alt="">
+                        <a href="#" class="custom-link">Apps</a>
+                    </h5>
+                    <h4>Lorem ipsum dolor sit amet consectetur.</h4>
+                    <h3>Lorem Ipsum</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio tempore consequatur, dolorem laudantium debitis soluta, explicabo ipsa error repudiandae vel nobis officiis illum hic labore aperiam similique assumenda? Id, perspiciatis?</p>
+                    <a href="#loremForm" class="btn btn-warning">Lorem Ipsum!</a>
+                </div>
+                <div class="col-md-6 animate__animated animate__fadeInRight">
+                    <div style="float: right;"><img class="mt-5" src="img/penguin.png" width="250px" height="250px" alt=""></div>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="wrapper-bg-none">
+        <div class="container text-center">
+            <div class="row">
+                <h5 class="animate__animated animate__rubberBand">Provident beatae soluta aut eius dolores. Vel?</h5>
+            </div>
+            <div class="row mt-3">
+                <div class="col-md-4">
+                    <img src="img/penguin.png" width="30px" height="30px" alt="">
+                    <h5>Lorem ipsum!</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis maxime dolorum omnis labore accusamus beatae nihil eveniet vel?</p>
+                </div>
+                <div class="col-md-4">
+                    <img src="img/penguin.png" width="30px" height="30px" alt="">
+                    <h5>Lorem ipsum!</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis maxime dolorum omnis labore accusamus beatae nihil eveniet vel?</p>
+                </div>
+                <div class="col-md-4">
+                    <img src="img/penguin.png" width="30px" height="30px" alt="">
+                    <h5>Lorem ipsum!</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis maxime dolorum omnis labore accusamus beatae nihil eveniet vel?</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="wrapper-bg-ash" id="loremForm">
+        <div class="container">
+            <div class="row text-center mb-3">
+                <h5 class="animate__animated animate__rubberBand">Provident beatae soluta aut eius dolores. Vel?</h5>
+            </div>
+            <form action="#" id="sampleForm" onsubmit="sampleFormSubmit(event, $(this))">
+            <div class="row justify-content-md-center">
+                <div class="col-md-4">
+                    <div class="form-group mb-2">
+                        <input type="text" name="full_name" class="form-control" placeholder="Full name" required>
+                    </div>
+                    <div class="form-group mb-2">
+                        <input type="text" name="phone" class="form-control" placeholder="Phone" required>
+                    </div>
+                    <div class="form-group mb-2">
+                        <input type="email" name="email" class="form-control" placeholder="Email" required>
+                    </div>
+                    <div class="form-group mb-2">
+                        <input type="text" name="city" class="form-control" placeholder="City" required>
+                    </div>
+                    <div class="form-group d-grid">
+                        <button type="submit" class="btn btn-warning btn-block">Lorem ipsum dolor, sit amet consectetur!</button>
+                    </div>
+                </div>
+            </div>
+            </form>
+        </div>
+    </div>
+    <div class="wrapper-bg-blue2">
+        <div class="container text-center">
+            <h6>&#169; dolor quas cumque! Culpa?</h6>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/additional-methods.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
